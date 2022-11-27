@@ -4,6 +4,7 @@ const collegecontroller = require("../Controllers/collegecontroller")
 const interncontroller =require("../Controllers/ineterncontroller")
 
 
+router.get("/check", function(req,res){res.send("Hello")})
 
 
 router.post("/colleges",collegecontroller.createcollege)
